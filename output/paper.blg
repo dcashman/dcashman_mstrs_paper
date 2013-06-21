@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: paper.aux
+The style file: acm.bst
+Database file #1: paper.bib
+Warning--to sort, need author or key in random4
+Warning--to sort, need author or key in random3
+Warning--empty journal in vansecure
+You've used 41 entries,
+            2253 wiz_defined-function locations,
+            762 strings with 10713 characters,
+and the built_in function-call counts, 15516 in all, are:
+= -- 1501
+> -- 690
+< -- 0
++ -- 288
+- -- 244
+* -- 1096
+:= -- 2355
+add.period$ -- 121
+call.type$ -- 41
+change.case$ -- 243
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 668
+empty$ -- 1301
+format.name$ -- 244
+if$ -- 3380
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 39
+newline$ -- 204
+num.names$ -- 78
+pop$ -- 332
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 479
+stack$ -- 0
+substring$ -- 928
+swap$ -- 226
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 158
+warning$ -- 3
+while$ -- 145
+width$ -- 43
+write$ -- 419
+(There were 3 warnings)

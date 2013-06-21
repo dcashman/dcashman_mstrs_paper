@@ -1,0 +1,236 @@
+\begin{thebibliography}{10}
+
+\bibitem{random3}
+random(3) linux manual page.
+\newblock \url{http://man7.org/linux/man-pages/man3/random.3.html}.
+
+\bibitem{random4}
+random(4) linux manual page.
+\newblock \url{http://man7.org/linux/man-pages/man4/random.4.html}.
+
+\bibitem{cfi}
+{\sc Abadi, M., Budiu, M., Erlingsson, U., and Ligatti, J.}
+\newblock Control-flow integrity.
+\newblock In {\em Proceedings of the 12th ACM conference on Computer and
+  communications security\/} (2005), ACM, pp.~340--353.
+
+\bibitem{freeVuln}
+{\sc Anonymous}.
+\newblock Once upon a free().
+\newblock {\em Phrack Magazine 57\/} (2001).
+
+\bibitem{poker}
+{\sc Arkin, B., Hill, F., Marks, S., Schmid, M., Walls, T.~J., and Mc-Graw, G.}
+\newblock How we learned to cheat at online poker: A study in software
+  security.
+\newblock {\em The developer. com Journal\/} (1999).
+
+\bibitem{csrf}
+{\sc Barth, A., Jackson, C., and Mitchell, J.~C.}
+\newblock Robust defenses for cross-site request forgery.
+\newblock In {\em Proceedings of the 15th ACM conference on Computer and
+  communications security\/} (2008), ACM, pp.~75--88.
+
+\bibitem{bellare_dss}
+{\sc Bellare, M., Goldwasser, S., and Micciancio, D.}
+\newblock “pseudo-random” number generation within cryptographic
+  algorithms: The dds case.
+\newblock In {\em Advances in Cryptology—CRYPTO'97}. Springer, 1997,
+  pp.~277--291.
+
+\bibitem{tcp_problems_back}
+{\sc Bellovin, S.~M.}
+\newblock A look back at "security problems in the tcp/ip protocol suite".
+\newblock In {\em Computer Security Applications Conference\/} (2004), vol.~20,
+  pp.~229--249.
+
+\bibitem{intOverflow}
+{\sc blexim}.
+\newblock Basic integer overflows.
+\newblock {\em Phrack Magazine 60\/} (2002).
+
+\bibitem{android_ASLR}
+{\sc Bojinov, H., Boneh, D., Cannings, R., and Malchev, I.}
+\newblock Address space randomization for mobile devices.
+\newblock In {\em Proceedings of the fourth ACM conference on Wireless network
+  security\/} (2011), ACM, pp.~127--138.
+
+\bibitem{chor_bits}
+{\sc Chor, B., and Goldreich, O.}
+\newblock Unbiased bits from sources of weak randomness and probabilistic
+  communication complexity.
+\newblock {\em SIAM Journal on Computing 17}, 2 (1988), 230--261.
+
+\bibitem{stackguardUse}
+{\sc Cowan, C., Beattie, S., Day, R.~F., Pu, C., Wagle, P., and Walthinsen, E.}
+\newblock Protecting systems from stack smashing attacks with stackguard.
+\newblock In {\em Linux Expo\/} (1999), Citeseer.
+
+\bibitem{stackguard}
+{\sc Cowan, C., Pu, C., Maier, D., Hinton, H., Walpole, J., Bakke, P., Beattie,
+  S., Grier, A., Wagle, P., and Zhang, Q.}
+\newblock Stackguard: Automatic adaptive detection and prevention of
+  buffer-overflow attacks.
+\newblock In {\em Proceedings of the 7th USENIX Security Symposium\/} (1998),
+  vol.~81, pp.~346--355.
+
+\bibitem{disk_timing}
+{\sc Davis, D., Ihaka, R., and Fenstermacher, P.}
+\newblock Cryptographic randomness from air turbulence in disk drives.
+\newblock In {\em Advances in Cryptology—Crypto’94\/} (1994), Springer,
+  pp.~114--120.
+
+\bibitem{phishing}
+{\sc Dhamija, R., Tygar, J.~D., and Hearst, M.}
+\newblock Why phishing works.
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  computing systems\/} (2006), ACM, pp.~581--590.
+
+\bibitem{windows}
+{\sc Dorrendorf, L., Gutterman, Z., and Pinkas, B.}
+\newblock Cryptanalysis of the windows random number generator.
+\newblock In {\em Proceedings of the 14th ACM conference on Computer and
+  communications security\/} (2007), ACM, pp.~476--485.
+
+\bibitem{lowLevSec}
+{\sc Erlingsson, U., Younan, Y., and Piessens, F.}
+\newblock {\em Handbook of Information and Communication Security}.
+\newblock Springer Berlin Heidelberg, 2010, ch.~Low-Level Software Security by
+  Example, pp.~633--658.
+
+\bibitem{netscape}
+{\sc Goldberg, I., and Wagner, D.}
+\newblock Randomness and the netscape browser.
+\newblock {\em Dr Dobb's Journal-Software Tools for the Professional Programmer
+  21}, 1 (1996), 66--71.
+
+\bibitem{tcp_RFC}
+{\sc Gont, F., and Bellovin, S.}
+\newblock Defending against sequence number attacks.
+\newblock {\em Internet RFC 6528\/} (2012), ISSN 2070--1721.
+
+\bibitem{java_sessid}
+{\sc Gutterman, Z., and Malkhi, D.}
+\newblock Hold your sessions: An attack on java session-id generation.
+\newblock In {\em Topics in Cryptology--CT-RSA 2005}. Springer, 2005,
+  pp.~44--57.
+
+\bibitem{linuxPRNG}
+{\sc Gutterman, Z., Pinkas, B., and Reinman, T.}
+\newblock Analysis of the linux random number generator.
+\newblock In {\em Security and Privacy, 2006 IEEE Symposium on\/} (2006), IEEE,
+  pp.~15--pp.
+
+\bibitem{tcp_attacks_methods}
+{\sc Harris, B., and Hunt, R.}
+\newblock Tcp/ip security threats and attack methods.
+\newblock {\em Computer Communications 22}, 10 (1999), 885--897.
+
+\bibitem{pnqs}
+{\sc Heninger, N., Durumeric, Z., Wustrow, E., and Halderman, J.~A.}
+\newblock Mining your ps and qs: detection of widespread weak keys in network
+  devices.
+\newblock In {\em Proceedings of the 21st USENIX conference on Security
+  symposium\/} (2012), USENIX Association, pp.~35--35.
+
+\bibitem{2013_entropy}
+{\sc Hennebert, C., Hossayni, H., and Lauradoux, C.}
+\newblock Entropy harvesting from physical sensors.
+\newblock In {\em Proceedings of the sixth ACM conference on Security and
+  privacy in wireless and mobile networks\/} (2013), ACM, pp.~149--154.
+
+\bibitem{kaminsky}
+{\sc Kaminsky, D.}
+\newblock Black ops 2008: It’s the end of the cache as we know it.
+\newblock {\em Black Hat USA\/} (2008).
+
+\bibitem{ASLP}
+{\sc Kil, C., Jun, J., Bookholt, C., Xu, J., and Ning, P.}
+\newblock Address space layout permutation (aslp): Towards fine-grained
+  randomization of commodity software.
+\newblock In {\em Computer Security Applications Conference, 2006. ACSAC'06.
+  22nd Annual\/} (2006), IEEE, pp.~339--348.
+
+\bibitem{buff_overflow_today}
+{\sc Ku, K., Hart, T.~E., Chechik, M., and Lie, D.}
+\newblock A buffer overflow benchmark for software model checkers.
+\newblock In {\em Proceedings of the twenty-second IEEE/ACM international
+  conference on Automated software engineering\/} (2007), ACM, pp.~389--392.
+
+\bibitem{revisited}
+{\sc Lacharme, P., R{\"o}ck, A., Strubel, V., and Videau, M.}
+\newblock The linux pseudorandom number generator revisited.
+\newblock Tech. rep., Cryptology ePrint Archive, Report 2012/251, 2012.
+
+\bibitem{linkers_loaders}
+{\sc Levine, J.~R.}
+\newblock {\em Linkers and Loaders}.
+\newblock Morgan Kaufmann, San Francisco, CA, 1999.
+
+\bibitem{tausworthe}
+{\sc L’ecuyer, P.}
+\newblock Maximally equidistributed combined tausworthe generators.
+\newblock {\em Mathematics of Computation of the American Mathematical Society
+  65}, 213 (1996), 203--213.
+
+\bibitem{kmowery}
+{\sc Mowery, K., Wei, M., Kohlbrenner, D., Shacham, H., and Swanson, S.}
+\newblock Welcome to the entropics: Boot-time entropy in embedded devices.
+\newblock In {\em IEEE Security and Privacy\/} (2013).
+
+\bibitem{aleph}
+{\sc One, A.}
+\newblock Smashing the stack for fun and profit.
+\newblock {\em Phrack Magazine 49\/} (1996).
+
+\bibitem{clickjack}
+{\sc Rydstedt, G., Bursztein, E., Boneh, D., and Jackson, C.}
+\newblock Busting frame busting: a study of clickjacking vulnerabilities at
+  popular sites.
+\newblock {\em IEEE Oakland Web 2\/} (2010).
+
+\bibitem{format}
+{\sc scut, and TESO}.
+\newblock Exploiting format string vulnerabilities, 2001.
+
+\bibitem{ASLR}
+{\sc Shacham, H., Page, M., Pfaff, B., Goh, E.-J., Modadugu, N., and Boneh, D.}
+\newblock On the effectiveness of address-space randomization.
+\newblock In {\em Proceedings of the 11th ACM conference on Computer and
+  communications security\/} (2004), ACM, pp.~298--307.
+
+\bibitem{illustrated}
+{\sc Stevens, W., and Fall, K.}
+\newblock {\em TCP/IP Illustrated, Volume 1}.
+\newblock Addison-Wesley Professional, Reading, Massachusetts, 2011.
+
+\bibitem{PaX}
+{\sc Team, P.}
+\newblock Pax address space layout randomization, 2003.
+\newblock \url{http://pax.grsecurity.net/docs/aslr.txt}.
+
+\bibitem{DNSPoison}
+{\sc Trostle, J., Van~Besien, B., and Pujari, A.}
+\newblock Protecting against dns cache poisoning attacks.
+\newblock In {\em Secure Network Protocols (NPSec), 2010 6th IEEE Workshop
+  on\/} (2010), IEEE, pp.~25--30.
+
+\bibitem{vansecure}
+{\sc Van~Herrewege, A., van~der Leest, V., Schaller, A., Katzenbeisser, S., and
+  Verbauwhede, I.}
+\newblock Secure prng seeding on commerial-of-the-shelf microcontrollers.
+
+\bibitem{viega}
+{\sc Viega, J.}
+\newblock Practical random number generation in software.
+\newblock In {\em Computer Security Applications Conference, 2003. Proceedings.
+  19th Annual\/} (2003), IEEE, pp.~129--140.
+
+\bibitem{yilek}
+{\sc Yilek, S., Rescorla, E., Shacham, H., Enright, B., and Savage, S.}
+\newblock When private keys are public: results from the 2008 debian openssl
+  vulnerability.
+\newblock In {\em Proceedings of the 9th ACM SIGCOMM conference on Internet
+  measurement conference\/} (2009), ACM, pp.~15--27.
+
+\end{thebibliography}

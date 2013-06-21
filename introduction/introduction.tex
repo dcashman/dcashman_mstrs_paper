@@ -1,0 +1,17 @@
+Randomness is a well-known feature of modern cryptosystems, which depend on random numbers for security.  Unfortunately, generating truly random numbers is a hard problem due to the determinstic nature of computers.  Current systems rely on Pseudo-random number generators (PRNGs) to generate numbers that appear to be random to outside applications, but despite a great deal of research, their implementation is also difficult and they have often failed \cite{linuxPRNG, yilek, netscape, poker, java_sessid, bellare_dss, chor_bits, windows}. A recent study by Heninger et al. identified one such failure in the use of the Linux PRNG for certain headless and embedded systems, in the form of a boot-time entropy hole, wherein a lack of sufficient random seeding early on in the boot process led to the adoption on those systems of weak, repeated crytographic keys \cite{pnqs}.  In this paper, we investigate the generation of random numbers in the Linux kernel and explore other, non-cryptographic, security implications of such a boot-time entropy hole.  
+
+PRNGs base their future output, which would be predictable otherwise, on random seeds.  Hard-to-predict events such as the timings of user input activies, disk accesses, and interrupts generate the values of these seeds\cite{disk_timing}. In the Linux PRNG this seeding is accounted for by the notion of entropy, which represents the perceived true level of randomness of the seed.  Given current cryptographic methods and computing power, approximately 200 bits of entropy is currently deemed enough to generate an output which is effectively random to observers \cite{tcp_RFC}.  
+
+The paper by Heninger et al. revealed that in certain headless and embedded systems, the estimate of entropy in the Linux PRNG did not reach 128 bits until more than 30 seconds after boot, and furthermore that no entropy seeding was given to the non-blocking pool, the one from which the kernel gets its random values, until the gathered entropy estimate reached 192 bits, approximately 66 seconds after boot.  This window of low entropy at boot-time is large enough to affect practically every process which relies on random values during boot-up.  
+
+This paper describes the general operation of the Linux PRNG and reveals the existence of multiple, previously unknown to us, entropy pools within the kernel.  It also presents an analysis of multiple security mechanisms in the presence of a boot-time entropy hole.  Specifically, we were able to take advantage of poor randomness in the networking code to spoof TCP connections, IP identifier fields and UDP source ports.  We also attempted to circumvent two low-level security mechanisms: stack canaries and address space layout randomization but were thwarted due to the use of one of the aforementioned newly discovered entropy pools instead of the low-entropy Linux PRNG.  
+In the next section, we describe the basic operation of the Linux PRNG.  Section 2 also describes the other entropy pools we encountered during our analysis.  Section 3 details our efforts to reproduce the boot-time entropy hole discovered by Heninger et al.  Sections 4 - 7 discuss our exploitation attempts: TCP spoofing in section 4, stack canary circumvention in section 5, ASLR prediction in section 6 and DNS poisoning in section 7. Section 8 is our conclusion, and section 9 discusses related and suggested future work.
+
+
+
+
+
+
+
+
+  

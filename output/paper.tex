@@ -1,0 +1,65 @@
+\include{template}
+
+%\usepackage{dblfloatfix}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{epsfig}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{url}
+%\usepackage{adjustbox}
+\begin{document}
+
+\title{\Large \bf Weighted Dice: An Evaluation of System Security in the Face of Limited Entropy}
+
+\author{
+  {\rm Daniel A Cashman}\\
+  University of California, San Diego
+} % end author
+\date{} % no date on first page
+\maketitle
+
+
+\subsection*{Abstract}
+\input{../abstract/abstract.tex}
+
+\section{Introduction}
+\input{../introduction/introduction.tex}
+
+\section{An Overview of Sources of Randomness in the Linux Kernel}
+\input{../sources/sources.tex}
+
+\begin{figure*}[htb]
+        \center{\includegraphics[width=\textwidth]
+        {implicit_entropy_graph.png}}
+        \caption{\label{fig: label} 250 boots on our Ubuntu machine had the state of their non-blocking pools output at every read and change and subsequently compared to all other boots.  This figure indicates where the non-blocking pool states diverged between every pair of boots.}
+\end{figure*}
+
+\section{Reproduction of the Boot-Time Entropy Hole}
+\input{../repro/repro.tex}
+
+\section{TCP Sequence Number Spoofing}
+\input{../TCP_seq/TCP_seq.tex}
+
+\section{Stack Canary Randomization}
+\input{../canary/canary.tex}
+
+\section{Address Space Layout Randomization}
+\input{../ASLR/ASLR.tex}
+
+\section{DNS Poisoning}
+\input{../DNS/DNS.tex}
+
+\section{Conclusion}
+\input{../conclusion/conclusion.tex}
+
+\section{Related and Future Work}
+\input{../related_n_future/related_n_future.tex}
+
+{
+  \footnotesize
+  \bibliographystyle{acm}
+  \bibliography{paper}
+}
+\end{document}
+
